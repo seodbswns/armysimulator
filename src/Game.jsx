@@ -38,7 +38,7 @@ const questions = [
   {
     type: "choice",
     question: "자 이 물건의 이름은 무엇인가.",
-    image: "/k2.jpg",
+    image: "./k2.jpg",
     choices: ["K2", "SPORTAGE", "AK47", "내 고추"],
     answer: "K2",
     success: "정답이다. 앞으로 네가 쓸 총이지.",
@@ -76,7 +76,7 @@ const questions = [
   {
     type: "input",
     question: "다음 용사들이 조작하고 있는 물건의 명칭은?",
-    image: "/999k.jpg",
+    image: "./999k.jpg",
     answer: ["999K", "PRC-999K", "PRC999K"],
     success: "바로 그거지 존나 무거운 고철쓰레기",
     fail: "이걸 몰라?!",
@@ -84,7 +84,7 @@ const questions = [
   {
     type: "choice",
     question: "이 물건의 이름은 무엇인가.",
-    image: "/대검.jpg",
+    image: "./대검.jpg",
     choices: ["귀여운 곰돌이><", "코알라", "대검", "미도리야 이즈쿠"],
     answer: "대검",
     success: "정답이다. 대검의 밑부분이다.",
