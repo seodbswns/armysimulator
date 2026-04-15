@@ -1,16 +1,33 @@
-# React + Vite
+# 훈련소 시뮬레이터
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+군대 입소 상황을 컨셉으로 제작한 웹 퀴즈 게임입니다.  
+플레이어는 훈련병이 되어 다양한 문제를 풀게 됩니다.
 
-Currently, two official plugins are available:
+## 프로젝트 소개
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React 공부 중 기능을 연습하기 위해 만든 웹 게임입니다.  
+처음에는 메모장 프로젝트를 참고하여 시작했고, 여러 기능을 직접 구현해 보기 위해 퀴즈 게임 형태로 발전시켰습니다.
 
-## React Compiler
+곧 입대하는 친구를 위해 제작한 프로젝트입니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 주요 기능
+- 객관식 / 주관식 문제 지원
+- 문제 이미지 표시 기능
+- 정답 / 오답 메시지 출력
+- 점수 계산 및 결과 표시
 
-## Expanding the ESLint configuration
+## 사용 기술
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 실행 방법
+1. 프로젝트 다운로드
+2. 터미널에서 아래 명령어 실행
+
+npm install  
+npm run dev
+
+## 배포 주소
+https://armysimulator.vercel.app/
