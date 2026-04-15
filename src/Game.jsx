@@ -496,7 +496,7 @@ export default function Game() {
             phase === "end" ||
             phase === "gameOver") && (
             <button style={styles.mainButton} onClick={handleNext}>
-              {phase === "end" ? "다시 시작" : phase === "gameOver" ? "처음부터 다시" : "다음"}
+              {phase === "end" ? "수료하기" : phase === "gameOver" ? "처음부터 다시" : "다음"}
             </button>
           )}
 
